@@ -2,10 +2,9 @@
 SQLite version of mmihaltz's word2vec trained on GoogleNews https://github.com/mmihaltz/word2vec-GoogleNews-vectors
 compressed.
 
-The schema is an `Embeddings` table with columns `word` as TEXT and `embedding` as TEXT.
-In Python 3 after the fetching of the data you have transform the str value of embedding to a list of floats easily.
+The schema is an `Embeddings` table with columns `word` as TEXT and `embedding` as TEXT as well in a list format.
 
-A general selection example.
+A general selection example in Python 3.
 ----------------------------
 ``` Python
 # words is a list of the vocabulary
