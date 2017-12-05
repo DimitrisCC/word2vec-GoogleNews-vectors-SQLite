@@ -1,6 +1,8 @@
 # word2vec-GoogleNews-vectors-SQLite
-SQLite version of mmihaltz's word2vec trained on GoogleNews https://github.com/mmihaltz/word2vec-GoogleNews-vectors
+*SQLite* version of mmihaltz's word2vec trained on GoogleNews https://github.com/mmihaltz/word2vec-GoogleNews-vectors
 compressed.
+
+[DOWNLOAD LINK](https://drive.google.com/open?id=1nqzaFNLS_zl5G3da1XF30Wr23oI-uEC4)
 
 The schema is an `Embeddings` table with columns `word` as TEXT and `embedding` as TEXT as well in a list format.
 
